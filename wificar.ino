@@ -9,10 +9,10 @@ const char *password = "thereisnospoon";
 ESP8266WebServer server(80);
 String webPage = "";
 
-int gpio5_pin = 5;
-int gpio4_pin = 4;
-int gpio0_pin = 0;
-int gpio2_pin = 2;
+int gpio5_pin = 5; //a1 motorcontroller
+int gpio4_pin = 4; //a2
+int gpio0_pin = 0; //b1
+int gpio2_pin = 2; //b2
 int flagf=0,flagb=0,flagr=0,flagl=0;
 /* Just a little test message.  Go to http://192.168.4.1 in a web browser
  * connected to this access point to see it.
